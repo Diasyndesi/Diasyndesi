@@ -1,0 +1,1 @@
+This is an example of a text document. Simply place your text files inside this folder and Diasyndesi can retrieve relevant data based on the student's prompt!
