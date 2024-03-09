@@ -41,3 +41,6 @@ The design is simple and clean. It has a dark background with white text and a f
 <p align="left">
     <img src="/Images/chat-box.png" style="border-radius: 18px" width=50%, height=50%/>
 </p>
+
+# Contributors
+[![](https://opencollective.com/html-react-parser/contributors.svg?width=890&button=false)](https://github.com/Diasyndesi/Diasyndesi/graphs/contributors)
