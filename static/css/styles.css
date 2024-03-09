@@ -1,0 +1,96 @@
+/*
+{static/css/styles.css}
+LICENSE: GNU GENERAL PUBLIC LICENSE
+*/
+
+/*Main Design*/
+body {
+    font-family: 'Tektur', sans-serif;
+    background-color: #161618;
+    height: 100%;
+}
+
+/*Diasyndesi Main Title Properties and Design*/
+.title{
+    font-size: 48px;
+    text-align: center;
+    line-height: 1;
+    color: #ffffff;
+    user-select: none; /*Don't allow users to select the text from the title*/
+}
+
+/*Main Container: Attributes:: Curved border, Shadows*/
+.main-container{
+    background-color: transparent;
+    border: 4px solid #ffffff;
+    border-radius: 25px;
+    box-shadow: 11px -13px teal;
+    padding: 20px;
+    width: 90%;
+    margin: auto
+}
+
+/*Attributes for the "invisible" chat-box/div. AKA how the text should appear and react within the main container*/
+.chat-box{
+    overflow: auto;
+    font-size: 25px;
+    word-wrap: break-word;
+    color: #ffffff; 
+    overflow-y: auto;
+    height: 550px;
+}
+
+/*Section with the interactive components of the UI*/
+.inputs-container {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    bottom: 1;
+    position: relative;
+}
+/*Input Design*/
+input[type="text"] {
+    font-size: 20px;
+    flex: 1;
+    padding: 10px;
+    background: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    border-radius: 6px;
+    outline: none;
+}
+
+button {
+    font-size: medium;
+    cursor: pointer;
+    background: transparent;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px 20px;
+    font-weight: bolder;
+    margin-left: 12px;
+    user-select: none; /*Don't allow users to select the text*/
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border: #000000;
+    user-select: none; /*Don't allow users to select the text*/
+}
+
+/*Custom Scrollbar*/
+::-webkit-scrollbar {
+    width: 8px; /* Set the width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #ffffff; /* Set the color of the thumb */
+    border-radius: 8px; /* Add rounded corners to the scrollbar */
+  }
+
+::-webkit-scrollbar-track {
+    background-color: transparent; /* Set the color of the track */
+}

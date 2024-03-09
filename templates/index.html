@@ -1,0 +1,45 @@
+<!--
+{/templates/index.html}
+LICENSE: GNU GENERAL PUBLIC LICENSE
+-->
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Diasyndesi</title>
+    <link href="https://fonts.googleapis.com/css2?family=Tektur&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="static/css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--ICON INSTALLATION-->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+
+<!--Loading the script-->
+<script src="static/script.js"></script>
+
+<!--Diasyndesi Main Title-->
+<div class="title">
+    <h1>Diasyndesi</h1>
+</div>
+<!--Main Border-->
+<div class="main-container">
+    <!--Chat Box Container: Div for the conversation-->
+    <div class="chat-box" id="chat-box">
+        <span id="displayed-text"></span>
+    </div>
+    <!--Container for all the inputs. The text and voice input as well as the send button-->
+    <div class="inputs-container">
+        <input type="text" id="user-input" placeholder="Type here..." autocomplete="off" onkeypress="enter(event)">        
+    <!--Send/Record Buttons-->
+    <button id="send-btn">
+        <ion-icon name="paper-plane-outline"></ion-icon>
+        Send
+    </button>
+    <button id="record-btn">
+        <ion-icon name="mic-outline"></ion-icon>
+            Record
+    </button>
+    <script src="static/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/2.0.1/marked.min.js"></script>
+    </div>
+</div>
