@@ -1,4 +1,6 @@
-# DIASYNDESI
+<p align="middle">
+  <img src="/Images/415768736_3741005119546423_4449621087855576190_n.png" style="border-radius: 18px"/>
+</p>
 This project is a chatbot that can interact with users based on custom data. The chatbot can use any data source, such as PDFs and TXT files to generate relevant and engaging responses. The chatbot can also handle different types of user inputs, such as text and voice and provide appropriate feedback. 
 
 [comment]: <> (The project is open-source and available on GitHub for anyone who wants to use it or contribute to it.)
