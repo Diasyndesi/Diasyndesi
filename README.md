@@ -43,4 +43,6 @@ The design is simple and clean. It has a dark background with white text and a f
 </p>
 
 # Contributors
-[![](https://opencollective.com/html-react-parser/contributors.svg?width=890&button=false)](https://github.com/Diasyndesi/Diasyndesi/graphs/contributors)
+<a href="https://github.com/Diasyndesi/Diasyndesi/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Diasyndesi/Diasyndesi" />
+</a>
