@@ -163,7 +163,6 @@ def chat_with_gpt():
         text_splitter = CharacterTextSplitter(chunk_size=1500, chunk_overlap=0)
         documents = text_splitter.split_documents(raw_documents)
         db = Chroma.from_documents(documents, OpenAIEmbeddings())
-        #query = "εξάρτηση από το κάπνισμα και τα προϊόντα καπνού "
         docs = db.similarity_search(user_message)
         print(docs[0].page_content)
         print(docs[0].metadata)
