@@ -11,7 +11,7 @@ This project is a chatbot that can interact with users based on custom data. The
   - Imports: Flask, render_template, jsonify, request
 - OpenAI: `pip install openai`
 - Pyaudio: `pip install pyaudio`
-- Langchain: `pip install langchain, langchain-community`
+- Langchain: `pip install langchain, langchain-community`, `pip install -qU langchain-text-splitters`
 ## Other imports
 - OS
 - Audioop
